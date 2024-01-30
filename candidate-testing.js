@@ -10,7 +10,6 @@ let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
 let candidateAnswer = "";
 
-
 //TODO: Variables for Part 2
 let question1 = "Who was the first American woman in space? ";
 let question2 = "True or false: 5 kilometer == 5000 meters? ";
@@ -31,8 +30,7 @@ function askQuestion() {
   //candidateAnswer = input.question(question);
   for(let i = 0; i < questions.length; i++) {
     candidateAnswers.push(input.question(questions[i]));
-  }
-  //console.log(candidateAnswers);
+  }  
 }
 
 function gradeQuiz(candidateAnswers) {
